@@ -1,0 +1,44 @@
+name: Build AunSSH Mini
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install
+        run: pip install pyinstaller paramiko PyQt6
+      - name: Build
+        run: pyinstaller --onefile --windowed --name="AunSSH_Mini-windows" aunssh_mini.py
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: AunSSH_Mini-windows
+          path: dist/AunSSH_Mini-windows.exe
+
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install
+        run: |
+          pip install pyinstaller paramiko PyQt6
+          sudo apt-get update
+          sudo apt-get install -y libxcb-xinerama0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-shape0 libxcb-xfixes0
+      - name: Build
+        run: pyinstaller --onefile --windowed --name="aunssh-mini-linux" aunssh_mini.py
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: aunssh-mini-linux
+          path: dist/aunssh-mini-linux
