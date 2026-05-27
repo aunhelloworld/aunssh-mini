@@ -15,7 +15,7 @@ jobs:
       - name: Install
         run: pip install pyinstaller paramiko PyQt6
       - name: Build
-        run: pyinstaller --onefile --windowed --name="AunSSH_Mini-windows" aunssh_mini.py
+        run: pyinstaller --onefile --windowed --noconsole --name="aunssh-mini-linux" aunssh_mini.py
       - name: Upload
         uses: actions/upload-artifact@v4
         with:
