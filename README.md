@@ -1,2 +1,0 @@
-# aunssh-mini
-Aunssh Mini
