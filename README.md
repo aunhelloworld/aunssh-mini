@@ -7,7 +7,7 @@
 ## 🖼️ Preview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aunhelloworld/aunssh-mini/main/screenshots/screenshot_v1-0-0.png" width="900">
+  <img src="https://raw.githubusercontent.com/aunhelloworld/aunssh-mini/refs/heads/main/screenshots/Screenshot_v1-0-5.png" width="900">
 </p>
 
 
@@ -27,7 +27,6 @@
 
 Manage remote files and edit code directly on your server with a clean and efficient interface designed for everyday work.
 
-![AunSSH Mini Screenshot](https://via.placeholder.com/800x450/161b22/79c0ff?text=AunSSH+Mini+Interface)
 
 ## ✨ Features
 
