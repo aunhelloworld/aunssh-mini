@@ -33,7 +33,7 @@ Manage remote files and edit code directly on your server with a clean and effic
 | Feature                | Description                                                     |
 | ---------------------- | --------------------------------------------------------------- |
 | 📂 **File Manager**    | Browse, create, rename, move, and delete remote files & folders |
-| ✏️ **Code Editor**     | Edit files directly on your server with syntax highlighting     |
+| ✏️ **Code Editor**     | Edit files directly on your server    |
 | 🔐 **Authentication**  | Supports both password and private key (SSH Key) login          |
 | 🎨 **Dark Theme**      | Clean dark interface designed for comfortable long sessions     |
 | 📰 **News Banner**     | Receive announcements and updates directly from aunssh.com      |
