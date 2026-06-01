@@ -7,7 +7,7 @@
 ## 🖼️ Preview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aunhelloworld/aunssh-mini/refs/heads/main/screenshots/Screenshot_v1-0-5.png" width="900">
+  <img src="https://raw.githubusercontent.com/aunhelloworld/aunssh-mini/refs/heads/main/screenshots/screenshot_v1-0-6.png" width="900">
 </p>
 
 
