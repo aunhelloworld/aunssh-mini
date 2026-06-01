@@ -44,7 +44,7 @@ from PyQt6.QtWidgets import (
     QSizePolicy,
 )
 
-APP_VERSION = "1.0.2"
+APP_VERSION = "1.0.5"
 APP_NAME = f"AunSSH Mini {APP_VERSION}"
 CONFIG_FILE = Path.home() / ".aunssh_mini.json"
 MONO = "JetBrains Mono, Cascadia Code, Fira Code, Consolas, Menlo, Monospace"
