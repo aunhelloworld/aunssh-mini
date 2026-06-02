@@ -1,4 +1,4 @@
-# 🚀 AunSSH Mini
+# 🚀 AunSSH
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
@@ -7,13 +7,13 @@
 ## 🖼️ Preview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aunhelloworld/aunssh-mini/refs/heads/main/screenshots/screenshot_v1-0-6.png" width="900">
+  <img src="https://raw.githubusercontent.com/aunhelloworld/aunssh/refs/heads/main/screenshots/screenshot_v1-0-6.png" width="900">
 </p>
 
 
 **Lightweight SSH/SFTP File Manager & Code Editor**
 
-> 💡 **Why AunSSH Mini?**
+> 💡 **Why AunSSH ?**
 > Modern IDEs are powerful — but often heavy, slow to launch, and unnecessary for quick server edits.
 > Sometimes you just need to:
 >
@@ -22,7 +22,7 @@
 > * Make a quick change
 > * Save and move on
 >
-> That’s exactly why **AunSSH Mini** exists.
+> That’s exactly why **AunSSH ** exists.
 > A lightweight, fast, and minimal SSH/SFTP editor built for speed and simplicity — no bloated setup, no long loading times, no distractions.
 
 Manage remote files and edit code directly on your server with a clean and efficient interface designed for everyday work.
@@ -59,7 +59,7 @@ Get the latest release from [GitHub Releases](https://github.com/aunhelloworld/a
 
 ### Windows
 
-1. Download `AunSSH_Mini-windows.exe`
+1. Download `AunSSH-windows.exe`
 2. Double-click to launch
 3. Enter your server credentials
 4. Connect and start editing instantly
